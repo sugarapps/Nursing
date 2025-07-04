@@ -134,7 +134,7 @@ def compare_courses_with_openrouter(ua_context, student_context):
         """
 
         response = client.chat.completions.create(
-            model="google/gemma-7b-it",
+            model="google/gemma-3n-e4b-it:free",
             messages=[
                 {"role": "system", "content": "You are a university admissions advisor's assistant providing expert analysis on course equivalency."},
                 {"role": "user", "content": prompt},
