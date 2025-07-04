@@ -1,6 +1,0 @@
-streamlit
-pandas
-PyMuPDF
-sentence-transformers
-requests
-beautifulsoup4
