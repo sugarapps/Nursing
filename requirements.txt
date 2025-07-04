@@ -1,0 +1,19 @@
+# requirements.txt
+
+# For PyTorch CPU-only version (performance fix)
+--find-links https://download.pytorch.org/whl/cpu/torch_stable.html
+torch
+torchvision
+torchaudio
+
+# Core app libraries
+streamlit
+pandas
+PyMuPDF
+sentence-transformers
+requests
+beautifulsoup4
+
+# --- NEW LIBRARIES FOR OCR ---
+pytesseract
+Pillow
