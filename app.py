@@ -134,7 +134,7 @@ def compare_courses_with_openrouter(ua_context, student_context):
         """
 
         response = client.chat.completions.create(
-            model="mistralai/mistral-7b-instruct",
+            model="nousresearch/nous-hermes-2-mistral-7b-dpo",
             messages=[
                 {"role": "system", "content": "You are a university admissions advisor's assistant providing expert analysis on course equivalency."},
                 {"role": "user", "content": prompt},
