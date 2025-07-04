@@ -128,7 +128,7 @@ def compare_courses_with_openrouter(ua_context, student_context):
         """
         
         response = client.chat.completions.create(
-            model="google/gemma-7b-it",
+            model="google/gemma-3n-e4b-it:free",
             messages=[
                 # --- FIX: Only a single user message is sent, containing all instructions ---
                 {"role": "user", "content": prompt},
