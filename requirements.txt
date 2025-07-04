@@ -1,0 +1,14 @@
+# requirements.txt
+
+--find-links https://download.pytorch.org/whl/cpu/torch_stable.html
+torch
+torchvision
+torchaudio
+
+# Your other libraries
+streamlit
+pandas
+PyMuPDF
+sentence-transformers
+requests
+beautifulsoup4
