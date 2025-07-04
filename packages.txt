@@ -1,5 +1,0 @@
-# packages.txt
-# This file tells Streamlit Cloud to install system-level packages.
-
-tesseract-ocr
-tesseract-ocr-eng
