@@ -1,9 +1,6 @@
-# requirements.txt
-
-streamlit==1.33.0
-pandas==2.2.1
-PyMuPDF==1.24.1
-sentence-transformers==2.7.0
-requests==2.31.0
-beautifulsoup4==4.12.3
-numpy==1.26.4
+streamlit
+pandas
+PyMuPDF
+sentence-transformers
+requests
+beautifulsoup4
